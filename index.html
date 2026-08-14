@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7eee3">
+<title>Руслан & Дарина — 20 сентября 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Marck+Script&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#514936;--olive:#6c7650;--gold:#a57a39;--paper:#fbf3e9;--cream:#fffaf3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#eee5db;color:var(--ink);font-family:"Cormorant Garamond",Georgia,serif}
+.page{max-width:700px;margin:auto;min-height:100vh;overflow:hidden;position:relative;background:linear-gradient(135deg,#fff9f0 0%,#f8f0e5 42%,#fbf5ea 72%,#f4eee4 100%)}
+.page:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(rgba(104,91,71,.35) .5px,transparent .6px);background-size:8px 8px}
+section{position:relative;z-index:1;padding:58px 24px;text-align:center}.hero{min-height:100svh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:42px 22px;background:radial-gradient(circle at 50% 30%,rgba(255,255,255,.8),transparent 58%)}
+.eyebrow{font-size:13px;letter-spacing:.12em;opacity:.65}.names{font-family:"Marck Script",cursive;font-size:clamp(62px,16vw,102px);line-height:.78;margin:18px 0;color:#4f5541}.names span{display:block}.amp{font-family:"Cormorant Garamond";font-size:40px;line-height:1;margin:12px}.lead{font-family:"Marck Script",cursive;font-size:29px}.date{font-size:24px;letter-spacing:.08em;margin-top:12px}.hearts{font-size:24px;letter-spacing:.38em;color:#8b7653;margin:18px 0}.hearts span{display:inline-block;margin:0 5px}.scroll{margin-top:32px;font-size:13px;opacity:.65;letter-spacing:.08em}
+.polaroids{display:flex;justify-content:center;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-top:18px}.polaroid{width:190px;background:#fff;padding:9px 9px 16px;box-shadow:0 9px 24px rgba(80,65,45,.13)}.polaroid:nth-child(1){transform:rotate(-2deg)}.polaroid:nth-child(3){transform:rotate(2deg)}.polaroid img{width:100%;height:210px;object-fit:cover;display:block}.caption{font-family:"Marck Script",cursive;font-size:28px;margin-top:7px}.plus{font-family:"Marck Script";font-size:34px;align-self:center;margin-top:80px}
+.quote,.script{font-family:"Marck Script",cursive}.quote{font-size:33px;line-height:1.2;max-width:590px;margin:0 auto 25px}.color-title{font-family:"Marck Script",cursive;font-size:32px;line-height:1.05;margin:0 auto 28px;max-width:650px;word-spacing:6px}.color-title .second-line{display:inline-block;margin-top:10px;word-spacing:9px}.color-title span{display:inline-block;margin:0 -1px}.color-title span:nth-child(7n+1){color:#df9a9d}.color-title span:nth-child(7n+2){color:#d78a82}.color-title span:nth-child(7n+3){color:#7e9a71}.color-title span:nth-child(7n+4){color:#7b8c58}.color-title span:nth-child(7n+5){color:#a47d6d}.color-title span:nth-child(7n+6){color:#8e5a43}.color-title span:nth-child(7n){color:#49372d}
+.photo-wrap{background:#fffaf4;padding:13px 13px 20px;box-shadow:0 12px 30px rgba(80,65,45,.13);transform:rotate(-1deg)}.photo-wrap img{display:block;width:100%;max-height:760px;object-fit:cover}h2{font-family:"Marck Script",cursive;font-size:42px;line-height:1.1;font-weight:400;margin:0 0 20px;color:#5c6548}h3{font-family:"Marck Script",cursive;font-size:27px;font-weight:400;margin:5px 0}p{font-size:19px;line-height:1.5;max-width:590px;margin:10px auto}.card{background:rgba(255,250,243,.58);border:1px solid rgba(159,137,102,.2);border-radius:22px;padding:24px 18px;margin-top:20px}.mapbtn,.rsvpbtn{display:inline-block;margin-top:10px;padding:11px 20px;border:1px solid #9d8b67;border-radius:999px;color:#5b6247;text-decoration:none;font-family:"Marck Script",cursive;font-size:22px}
+/* Wedding timeline */
+.timeline{position:relative;max-width:650px;margin:30px auto 0;padding:10px 0 24px}.timeline-line{position:absolute;left:50%;top:0;width:42px;height:100%;transform:translateX(-50%);z-index:0;overflow:visible;pointer-events:none}.event{position:relative;display:grid;grid-template-columns:1fr 1fr;min-height:205px;align-items:center;z-index:1}.event-side{width:100%;padding:0 24px}.event:nth-child(2n+2) .event-side{grid-column:1;text-align:right;padding-right:48px}.event:nth-child(2n+3) .event-side{grid-column:2;text-align:left;padding-left:48px}.time{font-size:38px;font-weight:700;line-height:1.05;white-space:nowrap;color:#4d3c25}.event h3{font-size:32px;line-height:1.12;margin:9px 0 0;color:#5a4a2e}.node-heart{font-size:17px;color:#6c7650;background:var(--paper);line-height:1;padding:2px 4px;border-radius:50%;text-shadow:none}
+.palette{display:flex;justify-content:center;gap:13px;margin:22px auto 0}.swatch{width:45px;height:45px;border-radius:50%;box-shadow:0 2px 8px rgba(65,50,35,.13);border:2px solid rgba(255,255,255,.75)}
+.footer{padding-bottom:70px}.small-hearts{font-size:24px;letter-spacing:.38em;margin-top:20px;color:#8d7450}.small-hearts span{display:inline-block;margin:0 5px}
+@media(max-width:520px){section{padding:48px 17px}.polaroid{width:155px}.polaroid img{height:175px}.plus{font-size:28px;margin-top:60px}.quote{font-size:29px}.color-title{font-size:28px;word-spacing:4px}.color-title .second-line{margin-top:12px;word-spacing:6px}h2{font-size:37px}p{font-size:18px}.event{min-height:190px}.event-side{padding:0 10px}.event:nth-child(2n+2) .event-side{padding-right:34px}.event:nth-child(2n+3) .event-side{padding-left:34px}.time{font-size:32px}.event h3{font-size:28px;line-height:1.08}.timeline-line{width:28px}.palette{gap:9px}.swatch{width:38px;height:38px}}
+</style>
+</head>
+<body>
+<main class="page">
+<section class="hero">
+  <div class="eyebrow">Свадебное приглашение</div>
+  <div class="names"><span>Руслан</span><div class="amp">&amp;</div><span>Дарина</span></div>
+  <div class="hearts"><span>♡</span><span>♡</span><span>♡</span></div>
+  <div class="lead">Мы выросли, и теперь нам можно</div>
+  <div class="date">20 сентября 2026 года</div>
+  <div class="scroll">листайте вниз ↓</div>
+</section>
+
+<section>
+  <div class="color-title" aria-label="Тили-тили-тесто жених и невеста">
+    <span>Т</span><span>и</span><span>л</span><span>и</span><span>-</span><span>т</span><span>и</span><span>л</span><span>и</span><span>-</span><span>т</span><span>е</span><span>с</span><span>т</span><span>о</span><br>
+    <span class="second-line"><span>ж</span><span>е</span><span>н</span><span>и</span><span>х</span><span> </span><span>и</span><span> </span><span>н</span><span>е</span><span>в</span><span>е</span><span>с</span><span>т</span><span>а</span><span>♡</span></span>
+  </div>
+  <div class="polaroids">
+    <div class="polaroid"><img src="ruslan.jpg" alt="Руслан в детстве"><div class="caption">Руслан</div></div>
+    <div class="plus">+</div>
+    <div class="polaroid"><img src="darina.jpg" alt="Дарина в детстве"><div class="caption">Дарина</div></div>
+  </div>
+</section>
+
+<section>
+  <div class="quote">там, где посеяна любовь, растёт радость</div>
+  <div class="photo-wrap"><img src="couple.jpg" alt="Руслан и Дарина"></div>
+</section>
+
+<section>
+  <h2>Дорогой гость</h2>
+  <p>Мы рады сообщить Вам, что состоится самое главное торжество в нашей жизни - день нашей свадьбы!</p>
+  <p>Приглашаем Вас разделить с нами радость этого незабываемого дня.</p>
+</section>
+
+<section>
+<h2>Свадебное расписание</h2>
+<div class="timeline">
+<svg class="timeline-line" viewBox="0 0 100 1000" preserveAspectRatio="none" aria-hidden="true">
+ <path d="M50 0 C43 70 57 125 50 205 C43 285 57 345 50 425 C43 505 57 565 50 645 C43 725 57 790 50 865 C46 915 48 955 50 1000" fill="none" stroke="#6c7650" stroke-width="1.5" vector-effect="non-scaling-stroke"/>
+</svg>
+
+<div class="event">
+ <div class="event-side"><div class="time">15:00</div><h3>Прибытие</h3></div>
+ <div class="node-heart" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)">♡</div>
+</div>
+
+<div class="event">
+ <div class="event-side"><div class="time">16:00</div><h3>Начало церемонии</h3></div>
+ <div class="node-heart" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)">♡</div>
+</div>
+
+<div class="event">
+ <div class="event-side"><div class="time">17:00</div><h3>Начало банкета</h3></div>
+ <div class="node-heart" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)">♡</div>
+</div>
+
+<div class="event">
+ <div class="event-side"><div class="time">22:00</div><h3>Окончание праздничного дня</h3></div>
+
+ <div class="node-heart" style="position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)">♡</div>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Подтверждение</h2>
+<p>Пожалуйста подтвердите свое присутствие до<br><strong>01.09.2026</strong></p>
+<div class="card"><p>Будем очень рады видеть вас среди наших гостей! ❤️</p><a class="rsvpbtn" href="mailto:?subject=Подтверждение присутствия на свадьбе Руслана и Дарины&body=Здравствуйте! Подтверждаю своё присутствие на свадьбе 20 сентября 2026 года.">Подтвердить присутствие</a></div>
+</section>
+
+<section>
+<h2>Дресс-код</h2>
+<p>Ждем Вас на нашей свадьбе!</p>
+<p>Будем благодарны, если при выборе нарядов на наше торжество вы придержитесь следующей палитры</p>
+<div class="palette"><div class="swatch" style="background:#ead0ae"></div><div class="swatch" style="background:#e5c7a0"></div><div class="swatch" style="background:#aab79b"></div><div class="swatch" style="background:#6d7334"></div><div class="swatch" style="background:#9a7b6a"></div><div class="swatch" style="background:#75452d"></div><div class="swatch" style="background:#21150f"></div></div>
+</section>
+
+<section class="footer">
+<h2>Место проведения</h2><h3>Tabi Village</h3><p>Талгарский район, Алматинская область<br>СТ Заповедник, 75</p><a class="mapbtn" href="https://2gis.kz/almaty/geo/70000001081868450" target="_blank" rel="noopener">Открыть место на карте</a><div class="small-hearts">♥ ♥ ♥</div><div class="script" style="font-size:35px;margin-top:24px">Ждём Вас на нашей свадьбе!</div>
+</section>
+</main>
+</body></html>
